@@ -1002,13 +1002,20 @@
       }
     },
     "clean-css": {
-      "version": "3.4.6",
-      "resolved": "https://registry.npmjs.org/clean-css/-/clean-css-3.4.6.tgz",
-      "integrity": "sha1-/LTxcFfdt/hyFhb3CweylNlf/EU=",
+      "version": "4.1.11",
+      "resolved": "https://registry.npmjs.org/clean-css/-/clean-css-4.1.11.tgz",
+      "integrity": "sha1-Ls3xRaujj1R0DybO/Q/z4D4SXWo=",
       "dev": true,
       "requires": {
-        "commander": "2.8.x",
-        "source-map": "0.4.x"
+        "source-map": "0.5.x"
+      },
+      "dependencies": {
+        "source-map": {
+          "version": "0.5.7",
+          "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz",
+          "integrity": "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=",
+          "dev": true
+        }
       }
     },
     "cli-boxes": {
@@ -1222,15 +1229,6 @@
       "dev": true,
       "requires": {
         "delayed-stream": "0.0.5"
-      }
-    },
-    "commander": {
-      "version": "2.8.1",
-      "resolved": "https://registry.npmjs.org/commander/-/commander-2.8.1.tgz",
-      "integrity": "sha1-Br42f+v9oMMwqh4qBy09yXYkJdQ=",
-      "dev": true,
-      "requires": {
-        "graceful-readlink": ">= 1.0.0"
       }
     },
     "commandpost": {
@@ -4060,12 +4058,6 @@
       "version": "4.1.11",
       "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz",
       "integrity": "sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg="
-    },
-    "graceful-readlink": {
-      "version": "1.0.1",
-      "resolved": "https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz",
-      "integrity": "sha1-TK+tdrxi8C+gObL5Tpo906ORpyU=",
-      "dev": true
     },
     "growl": {
       "version": "1.9.2",
