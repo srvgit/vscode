@@ -454,6 +454,12 @@
           "integrity": "sha1-oPX9bPyDpf5J72mNYOyKYk3UV2w=",
           "dev": true
         },
+        "mime": {
+          "version": "1.2.11",
+          "resolved": "https://registry.npmjs.org/mime/-/mime-1.2.11.tgz",
+          "integrity": "sha1-WCA+7Ybjpe8XrtK32evUfwpg3RA=",
+          "dev": true
+        },
         "underscore": {
           "version": "1.4.4",
           "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz",
@@ -3472,6 +3478,14 @@
         "async": "~0.9.0",
         "combined-stream": "~0.0.4",
         "mime": "~1.2.11"
+      },
+      "dependencies": {
+        "mime": {
+          "version": "1.2.11",
+          "resolved": "https://registry.npmjs.org/mime/-/mime-1.2.11.tgz",
+          "integrity": "sha1-WCA+7Ybjpe8XrtK32evUfwpg3RA=",
+          "dev": true
+        }
       }
     },
     "formatio": {
@@ -7628,9 +7642,9 @@
       }
     },
     "mime": {
-      "version": "1.2.11",
-      "resolved": "https://registry.npmjs.org/mime/-/mime-1.2.11.tgz",
-      "integrity": "sha1-WCA+7Ybjpe8XrtK32evUfwpg3RA=",
+      "version": "1.4.1",
+      "resolved": "https://registry.npmjs.org/mime/-/mime-1.4.1.tgz",
+      "integrity": "sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==",
       "dev": true
     },
     "mime-db": {
@@ -9527,6 +9541,14 @@
         "oauth-sign": "~0.3.0",
         "qs": "~0.6.0",
         "tunnel-agent": "~0.3.0"
+      },
+      "dependencies": {
+        "mime": {
+          "version": "1.2.11",
+          "resolved": "https://registry.npmjs.org/mime/-/mime-1.2.11.tgz",
+          "integrity": "sha1-WCA+7Ybjpe8XrtK32evUfwpg3RA=",
+          "dev": true
+        }
       }
     },
     "require-uncached": {
