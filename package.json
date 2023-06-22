@@ -32,7 +32,7 @@
     "minimist": "1.2.3",
     "native-keymap": "0.4.0",
     "node-pty": "0.6.2",
-    "semver": "4.3.6",
+    "semver": "7.5.2",
     "vscode-debugprotocol": "1.17.0",
     "vscode-textmate": "3.1.0",
     "winreg": "1.2.0",
